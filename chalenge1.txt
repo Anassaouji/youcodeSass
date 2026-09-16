@@ -1,0 +1,59 @@
+configure git avec mon identite
+git config --global user.name "ANASS AOUJI"
+git config --global user.email "aoujianass@gmail.com"
+
+working deriktory
+steaging area
+local repository
+
+Activité — Découverte de Git & GitHub
+
+Objectif
+Découvrir Git et GitHub et réaliser ton premier push.
+
+Recherche
+
+Cherche et explique simplement :
+C'est quoi Git ?
+C'est quoi GitHub ?
+Quelle est la différence entre Git et GitHub ?
+À quoi servent commit, push et pull ?
+
+Installation
+
+Installe Git sur ton ordinateur, puis vérifie l'installation :
+git --version
+
+Configure ensuite ton nom et ton email :
+git config --global user.name "Ton Nom"
+git config --global user.email "ton@email.com"
+
+Premier projet
+
+Crée un dossier first-git-project.
+À l'intérieur, crée un fichier hello.js avec le contenu suivant :
+console.log("hello javascript")
+
+Ensuite :
+git init
+git add .
+git commit -m "Initial commit"
+
+GitHub
+Crée un compte GitHub si nécessaire
+Crée un nouveau repository : first-git-project
+Connecte ton projet local au repository GitHub
+Fais ton premier push :
+git push -u origin main
+
+Livrable 
+Le lien de ton repository GitHub
+Une capture d'écran montrant ton premier push réussi
+Tes réponses aux questions de recherche
+
+Bon courage à tous, en cas de blocage, taguez-moi directement.
+
+
+
+cherche 
+node js /npm / package sync

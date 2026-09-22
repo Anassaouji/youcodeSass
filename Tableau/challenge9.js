@@ -15,7 +15,7 @@ for(let i = 0 ; i< nbrElement ; i++){
 let n = nombres.length - 1;
 let x = 0;
 
-for(let i = 0 ; i < n /2 ; i++){
+for(let i = 0 ; i < nombres.length /2 ; i++){
     x= nombres[n];
     nombres[n]= nombres[i];
     nombres[i]= x;
